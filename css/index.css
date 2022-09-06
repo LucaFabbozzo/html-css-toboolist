@@ -18,6 +18,7 @@ header .intestazione {
   height: 50px;
   background-color: white;
   padding: 5px 15px;
+  margin-bottom: 50px;
 }
 
 
@@ -31,3 +32,20 @@ header h1 {
   vertical-align: middle;
   padding-bottom: 10px;
 }
+
+
+/* contenitore */
+
+.contenitore {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* navigatore */
+
+nav .naviga {
+  height: 50px;
+  background-color: white;
+}
+
+
