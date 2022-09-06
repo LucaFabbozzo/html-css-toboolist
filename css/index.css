@@ -13,10 +13,19 @@ body {
 
 h2 {
   font-size: 1.3rem;
+  padding-bottom: 15px;
 }
+
+h2:before {
+  content:"\25be";
+}
+
 
 h4 {
   font-weight: lighter;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  color: #424242;
 }
 
 /* intestazione */
@@ -92,4 +101,58 @@ main .corpo {
   padding: 20px 40px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.corpo .sezione {
+  padding-bottom: 20px;
+}
+
+
+
+.corpo span {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  color: white;
+  line-height: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+
+.editorial {
+  background-color: #47ACF1;
+}
+
+.qgoals {
+  background-color: #9B72E4;
+}
+
+.recruiting {
+  background-color: #64BFA9;
+}
+
+.mobile {
+  background-color: #F19D34;
+}
+
+.website {
+  background-color: #D963A1
+}
+
+.sales {
+  background-color: #B0C925;
+}
+
+  .cerchio {
+  display: inline-block;
+  background-color: #999898;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  line-height: 13px;
+  margin-right: 10px;
 }
