@@ -5,3 +5,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #F7F7FA;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* intestazione */
+
+
+header .intestazione {
+  height: 50px;
+  background-color: white;
+  padding: 5px 15px;
+}
+
+
+header h1 {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.intestazione img {
+  width: 40px;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
