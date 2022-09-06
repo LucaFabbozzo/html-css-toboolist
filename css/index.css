@@ -45,7 +45,32 @@ header h1 {
 
 nav .naviga {
   height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: white;
+  padding: 12px 40px;
 }
 
+.naviga .bottone {
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 23px;
+  font-size: 0.7rem;
+  text-align: center;
+}
 
+.naviga .task {
+  width: 66px;
+  height: 25px;
+  background-color: #47ACF1;
+  color: white;
+  
+}
+
+.naviga .section {
+  width: 74px;
+  height: 25px;
+  background-color: #ffffff;
+  border: 1px solid #999898;
+  color: #c1c1c1;
+}
