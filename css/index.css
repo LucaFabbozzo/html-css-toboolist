@@ -16,7 +16,7 @@ h2 {
   padding-bottom: 15px;
 }
 
-h2:before {
+h2::before {
   content:"\25be";
 }
 
@@ -30,24 +30,23 @@ h4 {
 
 /* intestazione */
 
-
-header .intestazione {
-  height: 70px;
+header {
+  height: 70px; 
   background-color: white;
-  padding: 15px 15px;
-  margin-bottom: 50px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
 }
 
 
-header h1 {
-  display: inline-block;
-  line-height: 20px;
-}
-
-.intestazione img {
-  width: 40px;
+#logo-testo{
+  font-size: 1.9rem;
+  font-weight: bold;
   vertical-align: middle;
-  padding-bottom: 10px;
+}
+
+#logo {
+  height: 100%;
+  vertical-align: middle;
 }
 
 
@@ -58,18 +57,18 @@ header h1 {
   margin: 0 auto;
 }
 
-/* navigatore */
+/* corpo della pagina */
 
-nav .naviga {
+.bottoni {
   height: 50px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: white;
   padding: 12px 40px;
-  margin-bottom: 3px;
+  border-bottom: 4px solid #F7F7FA;
 }
 
-.naviga .bottone {
+.bottone {
   display: inline-block;
   border-radius: 5px;
   line-height: 23px;
@@ -77,24 +76,22 @@ nav .naviga {
   text-align: center;
 }
 
-.naviga .task {
+.task {
   width: 66px;
   height: 25px;
   background-color: #47ACF1;
+  border: 1px solid #47ACF1;
   color: white;
   
 }
 
-.naviga .section {
+.section {
   width: 74px;
   height: 25px;
   background-color: #ffffff;
   border: 1px solid #999898;
   color: #c1c1c1;
 }
-
-
-/* corpo della pagina */
 
 main .corpo {
   background-color: white;
@@ -122,27 +119,27 @@ main .corpo {
 }
 
 
-.editorial {
+.sezione .editorial {
   background-color: #47ACF1;
 }
 
-.qgoals {
+.sezione .qgoals {
   background-color: #9B72E4;
 }
 
-.recruiting {
+.sezione .recruiting {
   background-color: #64BFA9;
 }
 
-.mobile {
+.sezione .mobile {
   background-color: #F19D34;
 }
 
-.website {
+.sezione .website {
   background-color: #D963A1
 }
 
-.sales {
+.sezione .sales {
   background-color: #B0C925;
 }
 
@@ -162,7 +159,7 @@ main .corpo {
   color: #20a62cdc;
 }
 
-.visto:before {
+.visto::before {
   content:"\2713";
 }
 
@@ -172,6 +169,6 @@ main .corpo {
   color: red;;
 }
 
-.nonvisto:before {
+.nonvisto::before {
   content:"\2717"
 }
