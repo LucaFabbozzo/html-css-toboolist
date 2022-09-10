@@ -1,4 +1,4 @@
-/* css reset */
+/* general */
 
 * {
   margin: 0;
@@ -28,17 +28,24 @@ h4 {
   color: #424242;
 }
 
-/* intestazione */
+/* container */
+
+.container {
+  width: 60%;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+/* header */
 
 header {
   height: 70px; 
   background-color: white;
   padding: 10px 20px;
-  margin-bottom: 40px;
 }
 
 
-#logo-testo{
+#logo-text{
   font-size: 1.9rem;
   font-weight: bold;
   vertical-align: middle;
@@ -50,25 +57,18 @@ header {
 }
 
 
-/* contenitore */
+/* main */
 
-.contenitore {
-  width: 60%;
-  margin: 0 auto;
-}
-
-/* corpo della pagina */
-
-.bottoni {
+.top {
   height: 50px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   background-color: white;
   padding: 12px 40px;
   border-bottom: 4px solid #F7F7FA;
 }
 
-.bottone {
+.type {
+  width: 74px;
+  height: 25px;
   display: inline-block;
   border-radius: 5px;
   line-height: 23px;
@@ -77,36 +77,30 @@ header {
 }
 
 .task {
-  width: 66px;
-  height: 25px;
   background-color: #47ACF1;
   border: 1px solid #47ACF1;
   color: white;
   
 }
 
+
 .section {
-  width: 74px;
-  height: 25px;
   background-color: #ffffff;
   border: 1px solid #999898;
   color: #c1c1c1;
 }
 
-main .corpo {
+main .under {
   background-color: white;
   padding: 20px 40px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.corpo .sezione {
-  padding-bottom: 20px;
-}
 
 
 
-.corpo span {
+.under span {
   display: inline-block;
   width: 60px;
   height: 30px;
@@ -119,31 +113,36 @@ main .corpo {
 }
 
 
-.sezione .editorial {
+ .editorial {
   background-color: #47ACF1;
 }
 
-.sezione .qgoals {
+
+ .qgoals {
   background-color: #9B72E4;
 }
 
-.sezione .recruiting {
+
+ .recruiting {
   background-color: #64BFA9;
 }
 
-.sezione .mobile {
+
+ .mobile {
   background-color: #F19D34;
 }
 
-.sezione .website {
+
+ .website {
   background-color: #D963A1
 }
 
-.sezione .sales {
+
+ .sales {
   background-color: #B0C925;
 }
 
-  .cerchio {
+  .circle {
   display: inline-block;
   border-radius: 50%;
   width: 20px;
@@ -154,21 +153,21 @@ main .corpo {
   font-size: 0.7rem;
 }
 
-.cerchio.visto {
+.circle.check {
   border: 1px solid #20a62cdc;
   color: #20a62cdc;
 }
 
-.visto::before {
+.check::before {
   content:"\2713";
 }
 
 
-.cerchio.nonvisto {
+.circle.uncheck {
   border: 1px solid red;
   color: red;;
 }
 
-.nonvisto::before {
+.uncheck::before {
   content:"\2717"
 }
